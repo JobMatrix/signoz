@@ -212,10 +212,8 @@ services:
     ports:
       - "3301:3301"
     environment:
-      - VIRTUAL_HOST=monitoring@ezyapply.ai
-      - LETSENCRYPT_HOST=monitoring@ezyapply.ai
-      - VIRTUAL_HOST=monitoring@ezyapply.ai
-      - LETSENCRYPT_EMAIL=james@ezyapply.ai
+      - VIRTUAL_HOST=monitoring.ezyapply.ai
+      - LETSENCRYPT_HOST=james@ezyapply.ai
       - VIRTUAL_PORT=3301
       - VIRTUAL_PATH=/
     volumes:
